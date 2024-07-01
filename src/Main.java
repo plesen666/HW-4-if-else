@@ -57,22 +57,24 @@ if(ageAtrakcion<5) {
     System.out.println(" Если возраст ребенка равен " + ageAtrakcion + " ,то ему можно кататься без сопровождения взрослого.");
 
 }
-        System.out.println( " Задача 6");
 
-int place= 102;
-int sitePlace = 60;
-int standingPlace =place-sitePlace;
-int people = 20;
-if (people <= sitePlace) {
-    System.out.println("В вагон зашло " + people + " человек. В вагоне осталость " + (sitePlace - people) + " сидячих мест и " + standingPlace + " стоячих мест");
-} else if ( people== place ){
-    System.out.println("В вагон зашло " + people + " человек. В вагоне не осталось мест ");
-} else if (people> sitePlace&& people < standingPlace  ){
-    System.out.println( "В вагон зашло " + people + " человек. В вагоне осталость " + (place - people)  + " стоячих мест");
-}
+        System.out.println( " Задача#6");
+
+int plase= 102;
+int seatPlase =60;
+int staiPlase = plase-seatPlase;
+int passenger= 50;
+ if (passenger>plase) {
+     System.out.println( "Число пассажиров равно " + passenger+ " человек. Вагон забит. Едте на следующем поезде.");
+ } else if (passenger <= seatPlase ) {
+     System.out.println("Число пассажиров равно " + passenger+ " человек. Число свободных сидячих мест составляет " + (seatPlase - passenger) + " мест. Число стоячих мест составляет " + staiPlase + " мест.");
+ } else if (passenger >seatPlase && passenger<=plase ) {
+     System.out.println( "Число пассажиров равно " + passenger+ " человек. Cвободных сидячих мест нет. Число стоячих мест составляет " + (plase-passenger) + " мест.");
+ }
 
 
-        System.out.println( " Задача 7");
+
+        System.out.println( " Задача#7");
 
 
         int one = 1;
